@@ -3,11 +3,11 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'pm-root',
   template: `
-  <div style="text-align:center">
+  <div>
   <h1>
-    'Welcome to {{pageTitle}}!!
+    Welcome to {{pageTitle}}! 
   </h1>
-  <div>My First Component</div>
+    <pm-products></pm-products>
   </div>
   `
 })
